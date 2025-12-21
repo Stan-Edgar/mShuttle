@@ -1,5 +1,7 @@
 import Nav from "./nav"
 import Hero from './Hero'
+import Polaroid from "./polaroid"
+import Airport from "./assets/Airport.png"
 
 function Container({ children }) {
   return (
@@ -15,6 +17,7 @@ function App() {
       <Container>
         <Nav />
         <Hero />
+        <Polaroid pic={Airport} caption="Airport" />
       </Container>
     </>
   )
