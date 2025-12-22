@@ -1,7 +1,7 @@
 import Nav from "./nav"
 import Hero from './Hero'
-import Polaroid from "./polaroid"
-import Airport from "./assets/Airport.png"
+import ValueProp from "./valueProp"
+import Footer from "./Footer"
 
 function Container({ children }) {
   return (
@@ -17,8 +17,10 @@ function App() {
       <Container>
         <Nav />
         <Hero />
-        <Polaroid pic={Airport} caption="Airport" />
       </Container>
+
+      <ValueProp />
+      <Footer />
     </>
   )
 }
