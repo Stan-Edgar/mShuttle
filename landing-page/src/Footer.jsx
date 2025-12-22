@@ -2,7 +2,20 @@ import React from 'react'
 
 const Footer = () => {
   return (
-    <div className='flex bg-[#379F57] text-white items-center justify-between px-25 h-52'>
+    <div className='
+    flex 
+    bg-[#379F57] 
+    text-white 
+    items-center 
+    justify-between 
+    px-25 
+    h-52
+
+    max-sm:px-4
+    max-sm:py-8
+    max-sm:h-62
+    max-sm:flex-col
+    '>
         <p>Copyright © 2025 Magaña Shuttles & Tours</p>
         <div className='flex flex-col items-start gap-2'>
             <p className='font-medium text-2xl'>Contact:</p>

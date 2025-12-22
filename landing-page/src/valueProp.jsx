@@ -8,9 +8,27 @@ import Attractions from "./assets/Attractions.jpg"
 
 const ValueProp = () => {
   return (
-        <div className='font-sans flex flex-col items-center gap-14 mt-22 mb-32'>
+        <div className='
+        font-sans 
+        flex 
+        flex-col 
+        items-center 
+        gap-14 
+        mt-22 
+        mb-32
+        overflow-x-clip
+        '>
             <h2 className='text-[2rem] font-medium tracking-tight'>Pick-up & Drop Off Locations</h2>
-            <div className='flex flex-wrap items-center justify-center w-283.75 gap-20'>
+            <div className='
+            flex 
+            flex-wrap 
+            items-center 
+            justify-center 
+            w-283.75 
+            gap-20
+
+            max-sm:flex-col
+            '>
                 <Polaroid pic={Airport} caption="Airport" />
                 <Polaroid pic={WaterTaxi} caption="Water Taxi" />
                 <Polaroid pic={Resorts} caption="Resorts" />
