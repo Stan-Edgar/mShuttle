@@ -51,7 +51,7 @@ export default function Hero() {
           max-sm:mt-4
         "
       >
-        Book a shuttle
+        <a href="https://wa.me/5016641777" className="cursor" target="_blank" rel="noopener">Book a shuttle</a>
       </div>
     </div>
   );

@@ -43,7 +43,7 @@ export default function Nav() {
           max-sm:text-sm
         "
       >
-        Book a shuttle
+        <a href="https://wa.me/5016641777" className="cursor" target="_blank" rel="noopener">Book a shuttle</a>
       </div>
     </div>
   )
